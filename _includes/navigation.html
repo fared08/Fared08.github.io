@@ -14,7 +14,7 @@
         <div class="ufc-nav-links">
           {% for item in site.data.navigation %}
             <a href="{{ item.link }}" {% if page.url == item.link %}class="ufc-current"{% endif %}>
-              {{ item.name | upcase }}
+              {{ item.name }}
             </a>
           {% endfor %}
         </div>
