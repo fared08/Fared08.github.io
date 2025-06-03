@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset dan Base Styles */
 :root {
   --spacex-dark: #000000;
@@ -452,3 +453,5 @@ footer p {
   color: #444;
   line-height: 1.6;
 }
+
+/*# sourceMappingURL=styles.css.map */

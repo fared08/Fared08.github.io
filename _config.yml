@@ -1,8 +1,8 @@
+title: abofared08
 url : 'https://github.com/fared08'
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - Jekyll-sitemap
-
 excerpt_separator: <!--more-->
