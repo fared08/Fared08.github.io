@@ -2,9 +2,9 @@
 
 source "https://rubygems.org"
 
- gem "jekyll"
+# gem "rails"
 
- gem "minima"
+gem "jekyll"
 
 group :jekyll_plugins do
     gem "jekyll-sitemap"
