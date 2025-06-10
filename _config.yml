@@ -1,8 +1,6 @@
-title: abofared08
 url: "https://fared08.github.io"
-baseurl: '' 
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - Jekyll-sitemap
-excerpt_separator: <!--more-->
