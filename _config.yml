@@ -3,5 +3,5 @@ url: "https://fared08.github.io"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - Jekyll-sitemap
+  - jekyll-sitemap
   
