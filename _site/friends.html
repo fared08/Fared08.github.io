@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <link rel="icon" href="/assets/images/favicon.ico" />
+  
 
   <script src="/assets/js/script.js"></script>
 
@@ -58,10 +59,10 @@
     
     <main>
       <main class="friends-main">
-    <h1>Friends</h1>
-    <p>Berikut adalah teman-teman saya:</p>
+  <h1>Friends</h1>
+  <p>Berikut adalah teman-teman saya:</p>
 
-<div class="friends-grid">
+  <div class="friends-grid">
     <a href="https://ahmadfayyadh.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Ahmad Fayyadh</a>
     <a href="https://alanisamaharani.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Al Anisa Maharani</a>
     <a href="https://alfaizakbar.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Alfaiz Akbar Thaib</a>
@@ -90,8 +91,17 @@
     <a href="https://rafi-i-habibi.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Rafi'i Habibi</a>
     <a href="https://syahanalfatih.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Syahan Alfatih</a>
     <a href="https://addairabi.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">T. Ahmad Addairabi Asyafi'ie</a>
-</div>
+  </div>
 </main>
+
+<script>
+  document.querySelectorAll('.friend-card').forEach(card => {
+    const name = card.textContent.trim();
+    const initial = name.charAt(0).toUpperCase();
+    card.setAttribute('data-initial', initial);
+  });
+</script>
+
 
     </main>
     

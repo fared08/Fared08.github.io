@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @font-face {
   font-family: "visby";
   /* Ganti dengan nama bebas */
@@ -278,6 +279,154 @@ main {
   .portfolio-header h1 {
     font-size: 2rem;
   }
+  .des {
+    font-size: 9px;
+    margin-left: 10px;
+  }
+  .top-sidebar {
+    margin: 50px;
+  }
+  .top-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub-content h1 {
+    margin-left: 10px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-right: 110px;
+    font-family: "visby", sans-serif;
+    font-weight: 800;
+  }
+  .top-sidebar img {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 150px;
+  }
+  .middle-sidebar {
+    margin: 30px;
+  }
+}
+.friends-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.friends-main h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.friends-main p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+
+.friend-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.25s ease;
+  color: #1f2937;
+  position: relative;
+  font-weight: 500;
+}
+
+.friend-card::before {
+  content: attr(data-initial);
+  width: 40px;
+  height: 40px;
+  background: #97591f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.friend-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.blog-container {
+  max-width: 1800px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-item {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.blog-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #1a202c;
+}
+
+.blog-link:hover .post-title {
+  color: #007acc;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.blog-excerpt {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
 }
 
 /*# sourceMappingURL=styles.css.map */

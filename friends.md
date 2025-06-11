@@ -4,10 +4,10 @@ title: Friends
 ---
 
   <main class="friends-main">
-    <h1>Friends</h1>
-    <p>Berikut adalah teman-teman saya:</p>
+  <h1>Friends</h1>
+  <p>Berikut adalah teman-teman saya:</p>
 
-<div class="friends-grid">
+  <div class="friends-grid">
     <a href="https://ahmadfayyadh.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Ahmad Fayyadh</a>
     <a href="https://alanisamaharani.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Al Anisa Maharani</a>
     <a href="https://alfaizakbar.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Alfaiz Akbar Thaib</a>
@@ -36,5 +36,13 @@ title: Friends
     <a href="https://rafi-i-habibi.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Rafi'i Habibi</a>
     <a href="https://syahanalfatih.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">Syahan Alfatih</a>
     <a href="https://addairabi.github.io/" target="_blank" rel="noopener noreferrer" class="friend-card">T. Ahmad Addairabi Asyafi'ie</a>
-</div>
+  </div>
 </main>
+
+<script>
+  document.querySelectorAll('.friend-card').forEach(card => {
+    const name = card.textContent.trim();
+    const initial = name.charAt(0).toUpperCase();
+    card.setAttribute('data-initial', initial);
+  });
+</script>
