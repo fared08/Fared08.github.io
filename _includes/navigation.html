@@ -1,26 +1,16 @@
-<nav class="ufc-navbar">
-    <div class="ufc-nav-container">
-      <!-- UFC-style top bar with event info -->
-      <div class="ufc-event-bar">
-        ABOFARED08 | FARID HAIQAL
-      </div>
-      
-      <!-- Main nav content -->
-      <div class="ufc-main-nav">
-        <!-- Logo - changed to your workshop name with UFC styling -->
-        <div class="ufc-logo">WORKSHOP<span>WEB</span></div>
-        
-        <!-- Navigation links -->
-        <div class="ufc-nav-links">
-          {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %}class="ufc-current"{% endif %}>
-              {{ item.name }}
-            </a>
-          {% endfor %}
-        </div>
-        
-        <!-- CTA Button -->
-        <a href="https://fared08.github.io/FaredCV.github.io/" class="ufc-cta-button">abofared08</a>
+<header class="main-navbar">
+  <div class="nav-container">
+    <div class="nav-left">
+      <span class="name">Farid Haiqal</span>
+    </div>
+    <div class="nav-right">
+      <div class="nav-links">
+        {% for item in site.data.navigation %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+            {{ item.name }}
+          </a>
+        {% endfor %}
       </div>
     </div>
-  </nav>
+  </div>
+</header>
