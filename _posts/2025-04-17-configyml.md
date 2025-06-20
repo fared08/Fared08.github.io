@@ -5,8 +5,12 @@ date: 2025-04-17
 ---
 
 Materi tentang link dan lists pada HTML
+<br>
+
 
 Materi pengenalan tentang file konfigurasi `.yml` (YAML), sering digunakan dalam proyek web seperti Jekyll, GitHub Actions, dan banyak tools lainnya.
+<br>
+
 
 # ⚙️ Apa Itu File YML?
 
@@ -15,6 +19,8 @@ Materi pengenalan tentang file konfigurasi `.yml` (YAML), sering digunakan dalam
 Biasanya digunakan untuk mengatur **setting**, **data konfigurasi**, atau **pipeline deployment** di berbagai aplikasi dan framework.
 
 ---
+<br>
+
 
 ## 🧩 Ciri Khas Format YML
 
@@ -24,6 +30,8 @@ Biasanya digunakan untuk mengatur **setting**, **data konfigurasi**, atau **pipe
 - Mendukung struktur **array**, **object**, dan **nested data**
 
 ---
+
+<br>
 
 ## 📘 Contoh Dasar Config `.yml`
 
@@ -38,6 +46,8 @@ Pada contoh di atas:
 - Setelah tanda `:` adalah **value**
 
 ---
+<br>
+
 
 ## 🧱 Nested (Data Bertingkat)
 
@@ -49,6 +59,9 @@ user:
 Struktur ini artinya ada object `user` yang punya 2 properti: `name` dan `email`.
 
 ---
+
+
+<br>
 
 ## 📚 Contoh Array/List dalam YML
 
@@ -63,6 +76,8 @@ skills:
 List ini berisi beberapa item dalam satu key `skills`.
 
 ---
+
+<br>
 
 ## 🔧 Contoh pada `_config.yml` Jekyll
 
@@ -84,6 +99,8 @@ theme: null
 - `plugins` bisa ditambahkan sesuai fitur yang ingin kamu aktifkan.
 
 ---
+<br>
+
 
 ## ⚠️ Tips Penting Menggunakan YML
 
@@ -92,6 +109,8 @@ theme: null
 - Periksa ulang posisi key dan value, karena satu kesalahan kecil bisa bikin konfigurasi gagal terbaca.
 
 ---
+<br>
+
 
 ## ✅ Kesimpulan
 

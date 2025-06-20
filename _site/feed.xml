@@ -1,6 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-12T00:45:01+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Config YML</title><link href="http://localhost:4000/2025/04/17/configyml.html" rel="alternate" type="text/html" title="Config YML" /><published>2025-04-17T00:00:00+07:00</published><updated>2025-04-17T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/17/configyml</id><content type="html" xml:base="http://localhost:4000/2025/04/17/configyml.html"><![CDATA[<p>Materi tentang link dan lists pada HTML</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-20T16:43:08+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">CRUD PHP</title><link href="http://localhost:4000/2025/06/20/crud-php.html" rel="alternate" type="text/html" title="CRUD PHP" /><published>2025-06-20T00:00:00+07:00</published><updated>2025-06-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/20/crud-php</id><content type="html" xml:base="http://localhost:4000/2025/06/20/crud-php.html"><![CDATA[<p><br />
+<br />
+<br /></p>
 
-<p>Materi pengenalan tentang file konfigurasi <code class="language-plaintext highlighter-rouge">.yml</code> (YAML), sering digunakan dalam proyek web seperti Jekyll, GitHub Actions, dan banyak tools lainnya.</p>
+<h1 id="️-apa-itu-php">⚙️ Apa Itu PHP?</h1>
+<p><br />
+<br /></p>
+
+<p>PHP adalah singkatan dari Hypertext Preprocessor. Awalnya, PHP merupakan singkatan dari Personal Home Page, namun seiring perkembangannya, arti ini berubah untuk mencerminkan fungsinya yang lebih luas dalam pengembangan web</p>
+
+<p>PHP adalah bahasa skrip sisi server yang digunakan untuk membuat website dinamis dan interaktif. Bahasa ini memungkinkan pengembang untuk menyisipkan kode PHP ke dalam HTML, sehingga dapat menambahkan fitur dinamis seperti pengolahan data, interaksi dengan database, dan banyak lagi</p>
+
+<p><br />
+<br />
+<br /></p>
+
+<h1 id="️-apa-itu-crud">⚙️ Apa Itu CRUD?</h1>
+<p><br />
+<br /></p>
+
+<p>CRUD adalah singkatan dari Create, Read, Update, dan Delete, yaitu operasi dasar dalam pengolahan data di database khususnya pada database yang relasional. CRUD dapat diterapkan secara luas di berbagai jenis database seperti MySQL, PostgreeSQL, MongoDB, dan sejenisnya.</p>
+
+<p>Selain itu, CRUD adalah fondasi dasar dalam pengembangan sistem atau aplikasi yang berhubungan dengan pengolahan data. Ini karena hampir semua aplikasi yang menggunakan database melibatkan operasi CRUD dalam penggunaannya.</p>
+
+<p><br />
+<br /></p>
+
+<p><br />
+<br /></p>
+<h2 id="-mengapa-crud-sangat-penting">🧩 Mengapa CRUD Sangat Penting?</h2>
+
+<p>CRUD tidak hanya memudahkan pengelolaan data tetapi juga memastikan integritas data dalam aplikasi. Dalam dunia pengembangan, konsep CRUD membantu pengembang untuk membangun aplikasi yang efisien dan mudah dikelola.</p>
+
+<p><br />
+<br /></p>
+
+<p><br /></p>
+
+<h2 id="-mengapa-crud-sangat-penting-1">🧩 Mengapa CRUD Sangat Penting?</h2>
+<p><br />
+<br /></p>
+
+<p>Setelah mengetahui apa itu CRUD, langkah berikutnya adalah memahami cara kerjanya. Setiap aplikasi yang menggunakan CRUD akan memiliki fungsi atau metode yang mendukung keempat operasi ini. Cara kerja CRUD sering kali ditentukan oleh bahasa pemrograman atau framework yang digunakan.</p>
+
+<p>Misalnya, dalam PHP, CRUD dapat diimplementasikan melalui koneksi database MySQL, menggunakan query SQL dasar. Fungsi CRUD dalam PHP akan mencakup proses menambahkan data ke database, membaca data, memperbarui data yang ada, dan menghapus data ketika tidak lagi diperlukan. Contoh CRUD ini dapat diaplikasikan pada aplikasi seperti sistem inventaris, katalog produk, atau daftar pengguna.</p>
+
+<p>Berikut adalah gambaran sederhana cara kerja CRUD:</p>
+
+<p>Create: Pengguna memasukkan data baru ke database.
+Read: Data yang tersimpan di database ditampilkan kepada pengguna.
+Update: Pengguna dapat mengubah data yang sudah ada.
+Delete: Data yang tidak lagi diperlukan dapat dihapus.
+Dengan memahami cara kerja CRUD, pengembang dapat membangun aplikasi yang fungsional, mudah digunakan, dan efisien dalam memproses data.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Config YML</title><link href="http://localhost:4000/2025/04/17/configyml.html" rel="alternate" type="text/html" title="Config YML" /><published>2025-04-17T00:00:00+07:00</published><updated>2025-04-17T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/17/configyml</id><content type="html" xml:base="http://localhost:4000/2025/04/17/configyml.html"><![CDATA[<p>Materi tentang link dan lists pada HTML
+<br /></p>
+
+<p>Materi pengenalan tentang file konfigurasi <code class="language-plaintext highlighter-rouge">.yml</code> (YAML), sering digunakan dalam proyek web seperti Jekyll, GitHub Actions, dan banyak tools lainnya.
+<br /></p>
 
 <h1 id="️-apa-itu-file-yml">⚙️ Apa Itu File YML?</h1>
 
@@ -9,6 +63,7 @@
 <p>Biasanya digunakan untuk mengatur <strong>setting</strong>, <strong>data konfigurasi</strong>, atau <strong>pipeline deployment</strong> di berbagai aplikasi dan framework.</p>
 
 <hr />
+<p><br /></p>
 
 <h2 id="-ciri-khas-format-yml">🧩 Ciri Khas Format YML</h2>
 
@@ -20,6 +75,8 @@
 </ul>
 
 <hr />
+
+<p><br /></p>
 
 <h2 id="-contoh-dasar-config-yml">📘 Contoh Dasar Config <code class="language-plaintext highlighter-rouge">.yml</code></h2>
 
@@ -35,6 +92,7 @@ theme: minima</p>
 </ul>
 
 <hr />
+<p><br /></p>
 
 <h2 id="-nested-data-bertingkat">🧱 Nested (Data Bertingkat)</h2>
 
@@ -45,6 +103,8 @@ theme: minima</p>
 <p>Struktur ini artinya ada object <code class="language-plaintext highlighter-rouge">user</code> yang punya 2 properti: <code class="language-plaintext highlighter-rouge">name</code> dan <code class="language-plaintext highlighter-rouge">email</code>.</p>
 
 <hr />
+
+<p><br /></p>
 
 <h2 id="-contoh-arraylist-dalam-yml">📚 Contoh Array/List dalam YML</h2>
 
@@ -59,6 +119,8 @@ theme: minima</p>
 <p>List ini berisi beberapa item dalam satu key <code class="language-plaintext highlighter-rouge">skills</code>.</p>
 
 <hr />
+
+<p><br /></p>
 
 <h2 id="-contoh-pada-_configyml-jekyll">🔧 Contoh pada <code class="language-plaintext highlighter-rouge">_config.yml</code> Jekyll</h2>
 
@@ -81,6 +143,7 @@ url: “https://m-zakifahrezi.github.io/”</p>
 </ul>
 
 <hr />
+<p><br /></p>
 
 <h2 id="️-tips-penting-menggunakan-yml">⚠️ Tips Penting Menggunakan YML</h2>
 
@@ -91,6 +154,7 @@ url: “https://m-zakifahrezi.github.io/”</p>
 </ul>
 
 <hr />
+<p><br /></p>
 
 <h2 id="-kesimpulan">✅ Kesimpulan</h2>
 
